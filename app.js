@@ -111,15 +111,15 @@ function toggleModalChat(count) {
 }
 function toggleModalChatOrder(count) {
 	document.querySelector('.modal__business-order').classList.toggle('active')
-	if (count === 1) document.querySelector('.modal__box-cards-p').innerHTML = 'Стоимость 1500₽'
-	if (count === 2) document.querySelector('.modal__box-cards-p').innerHTML = 'Стоимость 1100₽'
+	if (count === 1) document.querySelector('.modal__box-cards-p').innerHTML = ''
+	if (count === 2) document.querySelector('.modal__box-cards-p').innerHTML = ''
 	if (count === 3) {
 		document.querySelector('.modal__box-cards-p').innerHTML = 'БЕСПЛАТНО'
 		document.querySelector('.modal__box-img').style.display = 'none'
 		document.querySelector('.modal__box-cards-p2').style.display = 'none'
 	}
-	if (count === 4) document.querySelector('.modal__box-cards-p').innerHTML = 'Стоимость 600₽'
-	if (count === 5) document.querySelector('.modal__box-cards-p').innerHTML = 'Стоимость 1000₽'
-	if (count === 6) document.querySelector('.modal__box-cards-p').innerHTML = 'Стоимость 1100₽'
+	if (count === 4) document.querySelector('.modal__box-cards-p').innerHTML = ''
+	if (count === 5) document.querySelector('.modal__box-cards-p').innerHTML = ''
+	if (count === 6) document.querySelector('.modal__box-cards-p').innerHTML = ''
 }
 
